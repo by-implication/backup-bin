@@ -1,0 +1,4 @@
+#!/bin/bash
+source ~/bin/functions.sh
+
+backup full $LOCAL_DIR $REMOTE_DIR && clean $REMOTE_DIR

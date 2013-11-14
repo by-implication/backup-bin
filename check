@@ -1,0 +1,4 @@
+#!/bin/bash
+source ~/bin/functions.sh
+
+verify $REMOTE_DIR $LOCAL_DIR

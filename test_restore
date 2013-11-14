@@ -1,0 +1,6 @@
+#!/bin/bash
+source ~/bin/functions.sh
+
+RESTORE_DIR="$HOME/test"
+mkdir -p $RESTORE_DIR
+restore $REMOTE_DIR $RESTORE_DIR

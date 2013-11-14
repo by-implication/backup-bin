@@ -1,0 +1,9 @@
+#!/bin/bash
+export PASSPHRASE="put gpg passphrase here"
+REMOTE="scp://offsite/backups"
+ENC_KEY_OPT="--encrypt-key=put gpg key here"
+
+USE_SUDO="no"
+LOCAL_DIR="$HOME/staging/"
+REMOTE_DIR=$(hostname)
+

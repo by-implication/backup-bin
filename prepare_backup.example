@@ -1,0 +1,5 @@
+#!/bin/bash
+
+STAGING_DIR="/home/backup/staging"
+mkdir -p $STAGING_DIR
+exit 1
